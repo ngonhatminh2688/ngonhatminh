@@ -1,0 +1,154 @@
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: "Poppins", sans-serif;
+      line-height: 1.6;
+      color: #ffffff;
+      background: linear-gradient(120deg, #ffffff, #01e6ff);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+  }
+
+  .profile-card {
+      background: #000000;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgb(255, 254, 254);
+      overflow: hidden;
+      max-width: 800px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 3fr 4.5fr;
+  }
+
+  .profile-img {
+      background: url("m1.jpg") center/cover no-repeat;
+      min-height: 300px;
+  }
+
+  .profile-content {
+      padding: 30px;
+  }
+
+  .profile-header h1 {
+      font-size: 28px;
+      color: #4d3a04;
+  }
+
+  .profile-header h3 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #a69999;
+      margin-bottom: 15px;
+  }
+
+  .profile-about {
+      margin-bottom: 20px;
+  }
+
+  .profile-social {
+      margin: 20px 0;
+  }
+
+  .profile-social a {
+      text-decoration: none;
+      margin-right: 15px;
+      color: #8a7575;
+      background:#333939;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s;
+  }
+
+  .profile-social a:hover {
+      background: #a21d1d;
+      color: #01b09e;
+  }
+
+  .skills {
+      margin-top: 30px;
+  }
+
+  .skills h4 {
+      margin-bottom:20px;
+      color: #01b09e;
+  }
+
+  .skill {
+      margin-bottom: 20px;
+  }
+
+  .skill-name {
+      font-size: 14px;
+      margin-bottom: 5px;
+  }
+
+  .skill-bar {
+      height: 8px;
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+
+  .skill-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #5d6168, #02d5fa);
+      border-radius: 5px;
+      transition: width 1s ease-in-out;
+  }
+
+  .skill-html {
+      width: 100%;
+  }
+
+  .skill-css {
+      width: 100%;
+  }
+
+  .skill-js {
+      width: 100%;
+  }
+
+  .skill-node {
+      width: 100%;
+  }
+
+  
+  .hobbies {
+      margin-top: 30px;
+  }
+
+  .hobbies h4 {
+      margin-bottom: 10px;
+      color:#01b09e;
+  }
+
+  .hobby-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+
+  .hobby {
+      background: #3d3e41;
+      color: #3d3e41;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-size: 14px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+  }
+
+  .hobby:hover {
+      background: #ffffff;
+      color: #282727;
+      transform: translateY(-3px);
+  }
